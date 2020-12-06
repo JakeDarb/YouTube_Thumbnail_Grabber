@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thumbnail grabber</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Thumbnail grabber</h1>
+        <p>By using this site you can get (almost) any YouTube-thumbnail.</p>
+        <p>Just paste the url below and you're good to go.</p>
+        
+        <div class="hidden">
+            <label for="url" class="urlAlert">The url you entered is invalid</label>
+        </div>
+        <div>
+            <input type="text" id="url" name="url" class="url">
+        </div>
+
+        <a href="#" id="btnGrab">Grab thumbnail</a>
+    </header>
+
+    <div class="costum hidden">
+        <img src="https://via.placeholder.com/150" alt="" id="thumbnail">
+    </div>
+    <div class="costumSmall hidden">
+        <img src="https://via.placeholder.com/150" alt="" id="thumbnail2">
+    </div>
+    <div class="auto1 hidden">
+        <img src="https://via.placeholder.com/150" alt="" id="thumbnail3" class="automatic">
+    </div>
+    <div class="auto2 hidden"></div>
+        <img src="https://via.placeholder.com/150" alt="" id="thumbnail4" class="automatic">
+    </div>
+    <div class="auto3 hidden">
+        <img src="https://via.placeholder.com/150" alt="" id="thumbnail5" class="automatic">
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

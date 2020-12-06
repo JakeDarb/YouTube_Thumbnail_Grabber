@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin-top: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #b5b5b5;
+
+}
+
+
+header{
+    font-size: 1.2em;
+    background-color: #828282;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-bottom: 10px solid white;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Layout for automatically generated images */
+.auto1, .auto2, .auto3{
+    width: 33.33%;
+    float: left;
+    margin-top: 1em;
+}
+
+.automatic{
+    width: 50%;
+    border: 7px solid #d12a2a;
+}
+/* ----------------------------------------- */
+
+/* Layout for costum thumbnails */
+.costum{
+    padding-top: 1em;
+}
+
+.costum img{
+    width: 50%;
+    border: 20px solid #d12a2a;
+}
+
+.costumSmall img{
+    width: 25%;
+    border: 10px solid #d12a2a;
+    margin: 1em;
+}
+/* ----------------------------- */
+
+/* Layout for the invalid warning */
+.alert{
+    border: 3px solid #d12a2a;
+    border-left: 25px solid #d12a2a;
+}
+
+.urlAlert{
+    background-color: #d12a2a;
+    width: 20em;
+    display: block;
+    margin:auto;
+    padding:0.5em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: left;
+    color: white;
+    padding-left: 25px;
+}
+/* ------------------------------ */
+
+.url{
+    width: 20em;
+    height: 2em;
+    font-size: 1em;
+    display: block;
+    margin:auto;
+    border-radius: 15px;
+    padding: .5em;
+
+}
+
+#btnGrab{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: white;
+    background-color: #d12a2a;
+    padding: 1em;
+    margin-top: 1em;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 30px;
+}
+
+@media (max-width:800px){
+
+    .costum img{
+        width: 75%;
+    }
+
+    .costumSmall img{
+        width: 50%;
+    }
+
+    .auto1, .auto2, .auto3{
+        width: 100%;
+    }
+
+    .automatic{
+        width: 25%;
+    }
+
+}
+
+@media (max-width:500px){
+
+    body{
+        font-size: .7em;
+    }
+
+}
+
+@media (max-width:319){
+
+    body{
+        font-size: .1em;
+    }
+
+}
