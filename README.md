@@ -1,4 +1,4 @@
-#YouTube thumbnail grabber
+# YouTube thumbnail grabber
 
 You can test the thumnail grabber [here](https://thumbnail.jakedarb.com)!
 
